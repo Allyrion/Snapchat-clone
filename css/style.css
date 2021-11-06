@@ -1,0 +1,134 @@
+
+/*CSS RESET!!!!! */
+*
+{
+    margin:0;
+    padding:0;
+}
+
+/*General Styles*/
+body
+{
+    font-family : Helvetica;
+    line-height: 1.7;
+}
+
+
+/*********Header*************/
+
+#header-top
+{
+    background-color: #fffc00;
+}
+
+header  a 
+{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:1.1rem;
+}
+
+header li
+{
+    display:inline-block;
+}
+
+.grid-col-header
+{
+    grid-template-columns: 150px 1fr;
+}
+
+
+#header-bottom
+{
+    background-color: white;
+}
+
+#header-top li
+{
+    padding : 16px 24px;
+}
+
+#header-bottom li
+{
+    padding: 28px 24px;
+}
+
+#header-top img
+{
+    margin: 22px 0 0 20px;
+  
+}
+
+
+.selected-link
+{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+
+/*********Hero Section*************/
+
+#hero-section
+{
+    height:500px;
+    background-image: url("../img/img-header.jpg");
+    background-position:center center;
+    background-size: cover;
+}
+
+
+#hero-section h1
+{
+    font-size:2.7rem;
+    color:white;
+    margin-bottom: 24px;
+}
+
+
+
+/*********Who We Are Section*************/
+#who-we-are-section
+{
+    padding:50px;
+}
+
+#who-we-are-section > div
+{
+    width:560px;
+    margin:0 auto;
+}
+
+#who-we-are-section h2
+{
+    font-size:2rem;
+    margin-bottom: 32px;
+}
+
+
+/*********Our Brands Section*************/
+#our-brands-section
+{
+    background-color: #f9f9f9;
+    padding:80px 0;
+}
+
+#our-brands-section h2
+{
+    font-size:2rem;
+    margin-bottom: 32px;
+    font-weight: lighter;
+}
+
+#our-brands-section img
+{
+    width:100px;
+    height: 100px;
+}
+
+#our-brands-section h3
+{
+    margin:16px 0;
+}
